@@ -1,25 +1,24 @@
 void print_char();
 
-char *my_replace_char(char *origin, char toFind, char toReplace){
+char my_replace_char(char *origin, char toFind, char toReplace){
     int x=0;
-    for (x; origin[x] != '\0'; x++);
-    int y;
-    for (y = 0; y < x; y++){
-        if (origin[y] == toFind){
+    for (x; origin[x] != '\0'; x++){
+        if (origin[x] == toFind){
             print_char(toReplace);
         }
         else{
-            print_char(origin[y]);
+            print_char(origin[x]);
         }
+    // int y;
+    // for (int y = 0; y < x; y++){
+    //     }
     }
 }
 
 
 
-
-#include <stdio.h>
-int main(int ac, char **av){
+int main(){
     char str[] = "bienvenue à epitech !";
-    printf("%s\n", my_replace_char(str, 'e', 'a'));
+    (my_replace_char(str, 'e', 'a'));
     return 0;
 }
