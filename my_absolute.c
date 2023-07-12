@@ -4,12 +4,3 @@ int my_absolute(int number){
     }
     return number;
 }
-
-
-
-
-#include <stdio.h>
-int main(void){
-    printf("%d\n", my_absolute(5));
-    return 0;
-}
