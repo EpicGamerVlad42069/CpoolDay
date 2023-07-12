@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-void print();
-
-
 int my_get_char_repeat(char to_find, const char *to_search){
     if (to_search == NULL){
         return 0;
