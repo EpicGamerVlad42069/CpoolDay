@@ -12,11 +12,3 @@ void my_print_square(int size, char c){
         }
     }
 }
-
-
-
-int main(void)
-{
-my_print_square(-2, 'g');
-return 0;
-}
