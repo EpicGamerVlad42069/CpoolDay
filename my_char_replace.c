@@ -14,11 +14,3 @@ char my_replace_char(char *origin, char toFind, char toReplace){
     //     }
     }
 }
-
-
-
-int main(){
-    char str[] = "bienvenue à epitech !";
-    (my_replace_char(str, 'e', 'a'));
-    return 0;
-}
