@@ -1,7 +1,12 @@
+#include <stdio.h>
+
 void print();
 
 
 int my_get_char_repeat(char to_find, const char *to_search){
+    if (to_search == NULL){
+        return 0;
+    }
     int num = 0;
     int x = 0;
     for (x; to_search[x] != '\0'; x++){
