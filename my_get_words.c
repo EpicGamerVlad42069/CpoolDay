@@ -16,15 +16,3 @@ void my_get_words(char *sentance){
         }
     }
 }
-
-
-
-
-
-#include <string.h>
-int main(void)
-{
-char str[] = "bienvenue à epite ch";
-my_get_words(str);
-return 0;
-}
