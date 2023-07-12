@@ -7,7 +7,7 @@ void my_print_square(int size, char c){
         for (j = 0; j < size; j++){
             print_char(c);
         }
-        print_char("\n");
+        print_char('\n');
     }
 }
 
