@@ -10,9 +10,3 @@ void my_print_square(int size, char c){
         print_char('\n');
     }
 }
-
-
-int main(void){
-    my_print_square(2, 'g');
-    return 0;
-}
